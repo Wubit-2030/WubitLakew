@@ -1,1 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Home - Wubit Lakew</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <header>
+            <h1>Wubit Lakew</h1>
+            <nav>
+                <ul>
+                    <li><a href="./">Home</a></li>
+                    <li><a href="./about">About</a></li>
+                    <li><a href="./projects">Projects</a></li>
+                </ul>
+            </nav>
+</header>
+            <div class="background-container">
+                <div class="profile-container">
+                    <img src="images/IMG¨_5990.jpg" alt="Profile Picture" class="profile-picture">
+                    <div class="profile-details">
+                        <p>Aspiring Data Scientist</p>
+                    </div>
+                </div>
+            </div>
+    
+        <main>
+           <h3>Welcome to my profile</h3>
+            <div class="right-center">
+            <p style="text-align: center; color:#100c0D; font-size: 18px; margin: 0; padding: 10px;">Explore my homepage and discover<br> a recent graduate eager to leverage skills in transforming data into <br> actionable insights and creating intuitive visualizations.</p>
+            </div>
 
+            <div class="download-container">
+                <a href="CV.pdf" download="Sara_CV.pdf" class="download-button"> Download CV</a>
+            </div>
+        </main>
+
+        <!--recent projects section-->
+        <section class="recent-projects">
+            <h2>Recent Projects</h2> 
+            <div class="project-container">
+                <!--project 1-->
+                <div class="project">
+                    <img src="images/project1.jpg" alt="Project 1" >
+                    <h3>Statistical Analysis with Interactive Dashboard.</h3>
+                    <p>This project is part of my Bachelor's thesis artefact. It involves performing proportional analysis, chi-square test analysis, and building an interactive dashboard to communicate the statistical analysis findings.</p>
+                   <a href="project_1_blog.html" class="project-link">View Project</a>
+                </div>
+                <!--project2-->
+                <div class="project">
+                    <img src="images/project2.jpg" alt="Project 2">
+
+                    <h3>ABC Bank (fictional) IT system prototype.</h3>
+                    <p>This report aims to demonstrate the ABC Bank (fictional) IT system prototype. The prototype presented is based on the possibility of the Bank's future expansion. The report will focus on implementing the system design decisions and how the business decisions are reflected in the system.</p>
+                    <a href="https://github.com/tes2sara/project-1---OOP" class="project-link">View Project</a>
+                </div>
+                <!--project3-->
+                <div class="project">
+                    <img src="project_2_data_viz_image/Customer_type.png" alt="Project_2_data_viz">
+
+                    <h3>Supermarket Sales Dashboard</h3>
+                    <p>This project aims to analytically display some of 
+                        the key performance indicator figures of a supermarket with three branches.
+                    </p>
+                    <a href="project_2_data_viz.html" class="project-link">View Project</a>
+                </div>
+
+            </section>
+
+        <script>
+            document.getElementById("year").textContent = new Date().getFullYear();
+        </script>
+
+        <footer>
+          <p>Contact:<a href="mailto:{tes2sara@gmail.com}"> tes2sara@gmail.com</a> | <a href="https://github.com/tes2sara">GitHub</a> | <a href="https://linkedin.com/in/sara-tesfamariam">LinkedIn</a></p>
+        <p>&copy; <span id="year"></span>Sara Tesfamariam</p>
+        </footer>
+        <script>
+            document.getElementById("year").textContent = new Date().getFullYear();
+        </script>
+    </body>
+    </html>
